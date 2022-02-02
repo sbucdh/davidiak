@@ -6,7 +6,7 @@ permalink: /about/
 
 <h3>¿Me entiende? Understanding the Hispanic patient</h3>
 
-<p>A digital collection by <a href="https://www.stonybrook.edu/commcms/hispanic/people/davidiak.php">Elena Davidiak, PhD</a> <a href="https://www.stonybrook.edu/commcms/hispanic/">SBU Dept. of Hispanic Languages and Literature</a></p>
+<p>A digital collection by <a href="https://www.stonybrook.edu/commcms/hispanic/people/davidiak.php">Elena Davidiak, PhD</a></p>
 
 <p>This project was largely inspired by personal communication with foreign-born US residents about their experiences seeking medical care. It seeks to explore the effect of the language barrier, and the effect of cultural factors in the absence of such barrier.</p>
 
