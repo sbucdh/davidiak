@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/images/obj12_2021-10-10-Patino-Norma",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1272,
+  "height": 712,
+  "sizes": [
+    {
+      "width": 1272,
+      "height": 712
+    },
+    {
+      "width": 250,
+      "height": 140
+    },
+    {
+      "width": 1140,
+      "height": 638
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

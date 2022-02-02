@@ -1,0 +1,38 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj08_2021-08-12-Tobar-Eileen.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj08_2021-08-12-Tobar-Eileen.json",
+      "label": "front",
+      "width": 2528,
+      "height": 1424,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj08_2021-08-12-Tobar-Eileen/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj08_2021-08-12-Tobar-Eileen.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj08_2021-08-12-Tobar-Eileen/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj08_2021-08-12-Tobar-Eileen",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 1264,
+            "height": 712
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj08_2021-08-12-Tobar-Eileen.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

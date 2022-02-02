@@ -1,0 +1,38 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj06_2021-07-20-Monroy-Javier.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj06_2021-07-20-Monroy-Javier.json",
+      "label": "front",
+      "width": 2540,
+      "height": 1420,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj06_2021-07-20-Monroy-Javier/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj06_2021-07-20-Monroy-Javier.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj06_2021-07-20-Monroy-Javier/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj06_2021-07-20-Monroy-Javier",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 1270,
+            "height": 710
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj06_2021-07-20-Monroy-Javier.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

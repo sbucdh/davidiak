@@ -1,0 +1,49 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj04/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj04",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj04_2021-07-20-Arroyo-Cristanir/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj04_2021-07-20-Arroyo-Cristanir.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj04_2021-07-20-Arroyo-Cristanir.json",
+          "label": "front",
+          "width": 2544,
+          "height": 1420,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj04_2021-07-20-Arroyo-Cristanir/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj04_2021-07-20-Arroyo-Cristanir.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj04_2021-07-20-Arroyo-Cristanir/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj04_2021-07-20-Arroyo-Cristanir",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1272,
+                "height": 710
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj04_2021-07-20-Arroyo-Cristanir.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj04_2021-07-20-Arroyo-Cristanir/full/full/0/default.jpg"
+}

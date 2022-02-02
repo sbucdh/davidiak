@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/obj10/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj10",
+  "thumbnail": "http://localhost:4000/davidiak/img/derivatives/iiif/images/obj10_2021-08-19-Gallardo-Alejandro/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/sequence/obj10_2021-08-19-Gallardo-Alejandro.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/canvas/obj10_2021-08-19-Gallardo-Alejandro.json",
+          "label": "front",
+          "width": 2540,
+          "height": 1420,
+          "thumbnail": "http://localhost:4000/davidiak/img/derivatives/iiif/images/obj10_2021-08-19-Gallardo-Alejandro/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/annotation/obj10_2021-08-19-Gallardo-Alejandro.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/images/obj10_2021-08-19-Gallardo-Alejandro/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/davidiak/img/derivatives/iiif/images/obj10_2021-08-19-Gallardo-Alejandro",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1270,
+                "height": 710
+              },
+              "on": "http://localhost:4000/davidiak/img/derivatives/iiif/canvas/obj10_2021-08-19-Gallardo-Alejandro.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/davidiak/img/derivatives/iiif/images/obj10_2021-08-19-Gallardo-Alejandro/full/full/0/default.jpg"
+}

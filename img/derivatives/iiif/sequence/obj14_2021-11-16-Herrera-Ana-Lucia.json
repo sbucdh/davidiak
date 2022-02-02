@@ -1,0 +1,38 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj14_2021-11-16-Herrera-Ana-Lucia.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj14_2021-11-16-Herrera-Ana-Lucia.json",
+      "label": "front",
+      "width": 2540,
+      "height": 1428,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj14_2021-11-16-Herrera-Ana-Lucia/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj14_2021-11-16-Herrera-Ana-Lucia.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj14_2021-11-16-Herrera-Ana-Lucia/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj14_2021-11-16-Herrera-Ana-Lucia",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 1270,
+            "height": 714
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj14_2021-11-16-Herrera-Ana-Lucia.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
