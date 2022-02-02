@@ -17,4 +17,4 @@ permalink: /about/
 
 <h3>Acknowledgements</h3>
 
-<p>I would like to thank Victoria Pilato and Chris Sauerwald at the <a href="https://library.stonybrook.edu/digital-humanities/">Stony Brook University Center for Digital Humanities</a> for their invaluable help and guidance in producing and organizing this collection, and Chris for creating and maintaining the digital archive.  – <strong>Elena Davidiak</strong></p>
+<p>I would like to thank Victoria Pilato and Chris Sauerwald at the <a href="https://library.stonybrook.edu/digital-humanities/">Stony Brook University Center for Digital Humanities</a> for their invaluable help and guidance in producing and organizing this collection, and Chris for creating and maintaining the collection website.  – <strong>Elena Davidiak</strong></p>
