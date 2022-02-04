@@ -18,7 +18,7 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Spanish Speakers in the US Medical Services'
+title:            'Understanding the Hispanic Patient'
 description:      'A collection of interview videos by Elena Davidiak'
 url:              'https://sbucdh.github.io'
 baseurl:          '/davidiak'
