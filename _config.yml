@@ -117,6 +117,8 @@ menu:
     link: '/collection/'
   - label: 'Search'
     link: '/search/'
+  - label: 'Reuse'
+    link: '/reuse/'
 
 
 # --------------------------------------------------------------
@@ -132,6 +134,8 @@ footer:
       link: '/collection/'
     - label: 'Search'
       link: '/search/'
+  - label: 'Reuse'
+    link: '/reuse/'      
     
   logos:
     - img: '/img/cdh-logo.png'
