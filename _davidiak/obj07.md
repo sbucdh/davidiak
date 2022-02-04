@@ -11,7 +11,7 @@ keywords: Peru, Spanish-dominant, non-Hispanic primary care doctor
 author: Elena Davidiak
 location: Zoom (intervewee lives in NY Metro Area)
 length: 00.08.06
-rights: https://creativecommons.org/licenses/by-nc-nd/4.0/
+rights: https://creativecommons.org/licenses/by-nc-sa/4.0/
 type_of_resource: video recording
 digital_format_of_resource: ".mp4"
 filename: 2021-08-09-Ramos-Yeimy.mp4
