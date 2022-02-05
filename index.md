@@ -13,7 +13,7 @@ show_title: false
   
 </div>
 
-<h3>¿Me entiende? Understanding the Hispanic patient</h3>
+<h3>¿Me entiende? Understanding the Hispanic Patient</h3>
 
 <p>A digital collection by <a href="https://www.stonybrook.edu/commcms/hispanic/people/davidiak.php">Elena Davidiak, PhD</a></p>
 
